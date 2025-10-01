@@ -89,6 +89,6 @@ func TestGradeType_String(t *testing.T) {
 		t.Errorf("Expected 'exam'; got '%s'", Exam.String())
 	}
 	if Essay.String() != "essay" {
-		t.Errorf("Expected 'essay on ai ethics'; got '%s'", Essay.String())
+		t.Errorf("Expected 'essay'; got '%s'", Essay.String())
 	}
 }
